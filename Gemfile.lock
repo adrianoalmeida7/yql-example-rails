@@ -40,6 +40,7 @@ GEM
       mime-types
       treetop (>= 1.4.5)
     mime-types (1.16)
+    nifty-generators (0.4.1)
     nokogiri (1.4.3.1)
     polyglot (0.3.1)
     rack (1.2.1)
@@ -76,6 +77,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  nifty-generators
   rails (= 3.0.0)
   restfulie
   sqlite3-ruby
