@@ -1,0 +1,10 @@
+<table>
+  <% @cursos.each do |c| %>
+    <tr>
+      <td><%=c.nome %></td>
+      <td><%=c.data %></td>
+      <td><%=c.periodo %></td>
+      <td><%=c.cidade %></td>
+    </tr>
+  <% end %>
+</table>
